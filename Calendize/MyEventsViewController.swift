@@ -8,11 +8,18 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class MyEventsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Nice looking background! Why not?
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "bg_02")?.draw(in: self.view.bounds)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
     }
 
     override func didReceiveMemoryWarning() {

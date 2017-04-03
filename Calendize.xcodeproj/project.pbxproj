@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */; };
-		2BF5790B1E92AB2F00CE8D8F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790A1E92AB2F00CE8D8F /* FirstViewController.swift */; };
-		2BF5790D1E92AB2F00CE8D8F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790C1E92AB2F00CE8D8F /* SecondViewController.swift */; };
+		2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */; };
+		2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */; };
 		2BF579101E92AB2F00CE8D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF5790E1E92AB2F00CE8D8F /* Main.storyboard */; };
 		2BF579121E92AB2F00CE8D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF579111E92AB2F00CE8D8F /* Assets.xcassets */; };
 		2BF579151E92AB2F00CE8D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF579131E92AB2F00CE8D8F /* LaunchScreen.storyboard */; };
 		2BF579201E92AB2F00CE8D8F /* CalendizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5791F1E92AB2F00CE8D8F /* CalendizeTests.swift */; };
 		2BF5792B1E92AB2F00CE8D8F /* CalendizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5792A1E92AB2F00CE8D8F /* CalendizeUITests.swift */; };
+		2BF579391E92ADAF00CE8D8F /* Pin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF579381E92ADAF00CE8D8F /* Pin.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* Begin PBXFileReference section */
 		2BF579051E92AB2E00CE8D8F /* Calendize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BF5790A1E92AB2F00CE8D8F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2BF5790C1E92AB2F00CE8D8F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventsViewController.swift; sourceTree = "<group>"; };
 		2BF5790F1E92AB2F00CE8D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BF579111E92AB2F00CE8D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF579141E92AB2F00CE8D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		2BF579261E92AB2F00CE8D8F /* CalendizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF5792A1E92AB2F00CE8D8F /* CalendizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendizeUITests.swift; sourceTree = "<group>"; };
 		2BF5792C1E92AB2F00CE8D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF579381E92ADAF00CE8D8F /* Pin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Pin.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */,
-				2BF5790A1E92AB2F00CE8D8F /* FirstViewController.swift */,
-				2BF5790C1E92AB2F00CE8D8F /* SecondViewController.swift */,
+				2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */,
+				2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */,
 				2BF5790E1E92AB2F00CE8D8F /* Main.storyboard */,
 				2BF579111E92AB2F00CE8D8F /* Assets.xcassets */,
 				2BF579131E92AB2F00CE8D8F /* LaunchScreen.storyboard */,
+				2BF579381E92ADAF00CE8D8F /* Pin.xib */,
 				2BF579161E92AB2F00CE8D8F /* Info.plist */,
 			);
 			path = Calendize;
@@ -238,6 +241,7 @@
 				2BF579151E92AB2F00CE8D8F /* LaunchScreen.storyboard in Resources */,
 				2BF579121E92AB2F00CE8D8F /* Assets.xcassets in Resources */,
 				2BF579101E92AB2F00CE8D8F /* Main.storyboard in Resources */,
+				2BF579391E92ADAF00CE8D8F /* Pin.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF5790D1E92AB2F00CE8D8F /* SecondViewController.swift in Sources */,
+				2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */,
 				2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */,
-				2BF5790B1E92AB2F00CE8D8F /* FirstViewController.swift in Sources */,
+				2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				2BF579311E92AB2F00CE8D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BF579321E92AB2F00CE8D8F /* Build configuration list for PBXNativeTarget "CalendizeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				2BF579341E92AB2F00CE8D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BF579351E92AB2F00CE8D8F /* Build configuration list for PBXNativeTarget "CalendizeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				2BF579371E92AB2F00CE8D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
