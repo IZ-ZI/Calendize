@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9A0E801E942B830060409C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A0E7F1E942B830060409C /* CustomCell.swift */; };
 		2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */; };
 		2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */; };
 		2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */; };
@@ -15,7 +16,6 @@
 		2BF579151E92AB2F00CE8D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF579131E92AB2F00CE8D8F /* LaunchScreen.storyboard */; };
 		2BF579201E92AB2F00CE8D8F /* CalendizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5791F1E92AB2F00CE8D8F /* CalendizeTests.swift */; };
 		2BF5792B1E92AB2F00CE8D8F /* CalendizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5792A1E92AB2F00CE8D8F /* CalendizeUITests.swift */; };
-		2BF579391E92ADAF00CE8D8F /* Pin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF579381E92ADAF00CE8D8F /* Pin.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9A0E7F1E942B830060409C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		2BF579051E92AB2E00CE8D8F /* Calendize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		2BF579261E92AB2F00CE8D8F /* CalendizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF5792A1E92AB2F00CE8D8F /* CalendizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendizeUITests.swift; sourceTree = "<group>"; };
 		2BF5792C1E92AB2F00CE8D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BF579381E92ADAF00CE8D8F /* Pin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Pin.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 				2BF5790E1E92AB2F00CE8D8F /* Main.storyboard */,
 				2BF579111E92AB2F00CE8D8F /* Assets.xcassets */,
 				2BF579131E92AB2F00CE8D8F /* LaunchScreen.storyboard */,
-				2BF579381E92ADAF00CE8D8F /* Pin.xib */,
 				2BF579161E92AB2F00CE8D8F /* Info.plist */,
+				2B9A0E7F1E942B830060409C /* CustomCell.swift */,
 			);
 			path = Calendize;
 			sourceTree = "<group>";
@@ -241,7 +241,6 @@
 				2BF579151E92AB2F00CE8D8F /* LaunchScreen.storyboard in Resources */,
 				2BF579121E92AB2F00CE8D8F /* Assets.xcassets in Resources */,
 				2BF579101E92AB2F00CE8D8F /* Main.storyboard in Resources */,
-				2BF579391E92ADAF00CE8D8F /* Pin.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +267,7 @@
 			files = (
 				2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */,
 				2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */,
+				2B9A0E801E942B830060409C /* CustomCell.swift in Sources */,
 				2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
