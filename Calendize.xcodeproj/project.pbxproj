@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B872FE31E9BF29C0073886F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B872FE21E9BF29C0073886F /* DetailViewController.swift */; };
+		2B872FE61E9C16870073886F /* UIApplication+CurrentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B872FE51E9C16870073886F /* UIApplication+CurrentController.swift */; };
 		2B9A0E801E942B830060409C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A0E7F1E942B830060409C /* CustomCell.swift */; };
 		2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */; };
 		2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2B872FE21E9BF29C0073886F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2B872FE51E9C16870073886F /* UIApplication+CurrentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+CurrentController.swift"; sourceTree = "<group>"; };
 		2B9A0E7F1E942B830060409C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		2BF579051E92AB2E00CE8D8F /* Calendize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B872FE41E9C16560073886F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B872FE51E9C16870073886F /* UIApplication+CurrentController.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		2BF578FC1E92AB2E00CE8D8F = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +117,12 @@
 				2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */,
 				2B872FE21E9BF29C0073886F /* DetailViewController.swift */,
 				2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */,
+				2B9A0E7F1E942B830060409C /* CustomCell.swift */,
 				2BF5790E1E92AB2F00CE8D8F /* Main.storyboard */,
 				2BF579111E92AB2F00CE8D8F /* Assets.xcassets */,
 				2BF579131E92AB2F00CE8D8F /* LaunchScreen.storyboard */,
 				2BF579161E92AB2F00CE8D8F /* Info.plist */,
-				2B9A0E7F1E942B830060409C /* CustomCell.swift */,
+				2B872FE41E9C16560073886F /* Extensions */,
 			);
 			path = Calendize;
 			sourceTree = "<group>";
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B872FE61E9C16870073886F /* UIApplication+CurrentController.swift in Sources */,
 				2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */,
 				2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */,
 				2B9A0E801E942B830060409C /* CustomCell.swift in Sources */,

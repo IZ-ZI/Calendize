@@ -63,7 +63,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ng8-kZ-tyh">
-                                                            <rect key="frame" x="56.5" y="126" width="42" height="21"/>
+                                                            <rect key="frame" x="57" y="126" width="42" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -82,8 +82,8 @@
                                                     <outlet property="cellImage" destination="UKF-w1-cYj" id="yhI-OY-YGh"/>
                                                     <outlet property="cellLabel" destination="ng8-kZ-tyh" id="Lm8-ro-Vkz"/>
                                                     <segue destination="GMX-k2-jDb" kind="presentation" modalPresentationStyle="overCurrentContext" id="Ax7-sV-BCy">
-                                                        <segue key="commit" inheritsFrom="parent" id="UJB-sS-VqG"/>
-                                                        <segue key="preview" inheritsFrom="commit" id="EGH-G9-skI"/>
+                                                        <segue key="commit" inheritsFrom="parent" id="eZQ-Yb-cD3"/>
+                                                        <segue key="preview" inheritsFrom="commit" id="lEM-gq-UrP"/>
                                                     </segue>
                                                 </connections>
                                             </collectionViewCell>
@@ -122,7 +122,6 @@
         <!--Detail View Controller-->
         <scene sceneID="p8N-jC-JRP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ll-tL-1Ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="GMX-k2-jDb" customClass="DetailViewController" customModule="Calendize" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8RJ-lh-yGb"/>
@@ -133,21 +132,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIi-Vf-C77" userLabel="popover">
-                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <rect key="frame" x="16" y="64" width="343" height="539"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vye-w9-jEZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="67"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="54"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ry-yX-UVO">
-                                        <rect key="frame" x="0.0" y="67" width="343" height="200"/>
+                                        <rect key="frame" x="0.0" y="54" width="343" height="162"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gp-cZ-vbS">
-                                        <rect key="frame" x="0.0" y="267" width="343" height="334"/>
+                                        <rect key="frame" x="0.0" y="216" width="343" height="270"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">I went down to the river,
+                                        <string key="text">I went down to the river,
 I set down on the bank.
 I tried to think but couldn't,
 So I jumped in and sank.
@@ -181,19 +180,19 @@ And you may see me cry--
 I'll be dogged, sweet baby,
 If you gonna see me die.
 
-Life is fine! Fine as wine! Life is fine!</mutableString>
+Life is fine! Fine as wine! Life is fine!</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLQ-bN-A1b" userLabel="yes">
-                                        <rect key="frame" x="2" y="603" width="168.5" height="62"/>
+                                        <rect key="frame" x="2" y="488" width="168.5" height="49"/>
                                         <color key="backgroundColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="I'M DOWN">
                                             <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TA4-gb-hVa" userLabel="no">
-                                        <rect key="frame" x="172.5" y="603" width="168.5" height="62"/>
+                                        <rect key="frame" x="172.5" y="488" width="168.5" height="49"/>
                                         <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="CONTINUE">
                                             <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -229,11 +228,11 @@ Life is fine! Fine as wine! Life is fine!</mutableString>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="0zJ-Z9-BQe" firstAttribute="top" secondItem="WIi-Vf-C77" secondAttribute="bottom" id="OYF-7A-2Ne"/>
+                            <constraint firstItem="0zJ-Z9-BQe" firstAttribute="top" secondItem="WIi-Vf-C77" secondAttribute="bottom" constant="64" id="OYF-7A-2Ne"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WIi-Vf-C77" secondAttribute="trailing" id="QQm-uk-uMn"/>
-                            <constraint firstItem="WIi-Vf-C77" firstAttribute="top" secondItem="8RJ-lh-yGb" secondAttribute="bottom" id="akq-0a-pdL"/>
+                            <constraint firstItem="WIi-Vf-C77" firstAttribute="top" secondItem="8RJ-lh-yGb" secondAttribute="bottom" constant="64" id="akq-0a-pdL"/>
                             <constraint firstItem="WIi-Vf-C77" firstAttribute="leading" secondItem="JFG-cK-soA" secondAttribute="leadingMargin" id="edu-hd-7bq"/>
                         </constraints>
                     </view>
@@ -241,11 +240,15 @@ Life is fine! Fine as wine! Life is fine!</mutableString>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="coverImage" destination="0ry-yX-UVO" id="zKL-wt-FhJ"/>
+                        <outlet property="detailTextView" destination="3gp-cZ-vbS" id="jvW-mi-yfI"/>
                         <outlet property="detailView" destination="WIi-Vf-C77" id="mSJ-sK-mh3"/>
                         <outlet property="noButton" destination="TA4-gb-hVa" id="aPs-mE-6iM"/>
+                        <outlet property="titleLabel" destination="Vye-w9-jEZ" id="yKb-EP-sUY"/>
                         <outlet property="yesButton" destination="NLQ-bN-A1b" id="lr3-RM-1YK"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ll-tL-1Ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1557.5999999999999" y="-321.58920539730138"/>
         </scene>
