@@ -8,13 +8,11 @@
 
 import UIKit
 
-class DashBoardViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
-    @IBOutlet weak var createNewEvent: UIButton! 
-    @IBOutlet weak var EventView: UICollectionView!
+class DashBoardViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{    
+    @IBOutlet weak var createNewEvent: UIButton!
+    @IBOutlet weak var eventView: UICollectionView!
     
-    @IBOutlet weak var previous: UIButton!
-    @IBOutlet weak var forward: UIButton!
+    
     var img = ["test","test","test","test","test","test"]
     var label = ["01","02","03","04","05","06"]
     var cells : CustomCell!
@@ -31,13 +29,13 @@ class DashBoardViewController: UIViewController, UICollectionViewDelegate, UICol
         self.view.backgroundColor = UIColor(patternImage: image)
         
         //Round-Edged Button! Why not?
-        createNewEvent.layer.cornerRadius = 50
-        previous.layer.cornerRadius = 50
-        forward.layer.cornerRadius = 50
+        createNewEvent.layer.cornerRadius = 25
+        //previous.layer.cornerRadius = 50
+        //forward.layer.cornerRadius = 50
         
-        //
-        EventView.delegate = self
-        EventView.dataSource = self
+        //Setting up delegates
+        eventView.delegate = self
+        eventView.dataSource = self
     }
 
 
@@ -59,5 +57,8 @@ class DashBoardViewController: UIViewController, UICollectionViewDelegate, UICol
     
     @IBAction func createNewEventCell(_ sender: UIButton) {
     }
+    
+    
 }
+
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B872FE31E9BF29C0073886F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B872FE21E9BF29C0073886F /* DetailViewController.swift */; };
 		2B9A0E801E942B830060409C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A0E7F1E942B830060409C /* CustomCell.swift */; };
 		2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */; };
 		2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B872FE21E9BF29C0073886F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2B9A0E7F1E942B830060409C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		2BF579051E92AB2E00CE8D8F /* Calendize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				2BF579081E92AB2F00CE8D8F /* AppDelegate.swift */,
 				2BF5790A1E92AB2F00CE8D8F /* DashBoardViewController.swift */,
+				2B872FE21E9BF29C0073886F /* DetailViewController.swift */,
 				2BF5790C1E92AB2F00CE8D8F /* MyEventsViewController.swift */,
 				2BF5790E1E92AB2F00CE8D8F /* Main.storyboard */,
 				2BF579111E92AB2F00CE8D8F /* Assets.xcassets */,
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					2BF579041E92AB2E00CE8D8F = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 46LJ7FTGEE;
 						ProvisioningStyle = Automatic;
 					};
 					2BF5791A1E92AB2F00CE8D8F = {
@@ -268,6 +272,7 @@
 				2BF5790D1E92AB2F00CE8D8F /* MyEventsViewController.swift in Sources */,
 				2BF579091E92AB2F00CE8D8F /* AppDelegate.swift in Sources */,
 				2B9A0E801E942B830060409C /* CustomCell.swift in Sources */,
+				2B872FE31E9BF29C0073886F /* DetailViewController.swift in Sources */,
 				2BF5790B1E92AB2F00CE8D8F /* DashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46LJ7FTGEE;
 				INFOPLIST_FILE = Calendize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IZ.Calendize;
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46LJ7FTGEE;
 				INFOPLIST_FILE = Calendize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IZ.Calendize;
